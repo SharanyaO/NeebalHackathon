@@ -1,0 +1,39 @@
+{
+	"floor":"0",
+	"shops": [ 
+				{"sname":"Croma", "goto": [
+									{"sname":"Walmart", "message":"Turn Left and walk straight"},
+								   	{"sname":"Starbucks", "message":"Its on the opposite side, slightly to your left"},
+								   	{"sname":"Pantaloons", "message":"Go straight to the opposite side of the building"},
+								   	{"sname":"Trends", "message":"Turn left and go towards Walmart. From Walmart, turn right and walk to the opposite side of the building"},
+								  		  ]
+				},
+				{"sname":"Walmart", "goto": [
+									{"sname":"Croma", "message":"Turn right and walk straight"},
+								   	{"sname":"Starbucks", "message":"Its on the opposite side, slightly to your right"},
+								   	{"sname":"Pantaloons", "message":"Walk straight towards Trends and then turn right"},
+								   	{"sname":"Trends", "message":"Go straight to the opposite side of the building"},
+								  		  ]
+				},
+				{"sname":"Trends", "goto": [
+									{"sname":"Walmart", "message":"Go straight to the opposite side of the building"},
+								   	{"sname":"Starbucks", "message":"Head straight towards Walmart. Then walk towards your left, Starbucks will come on the oppoite side, to your right"},
+								   	{"sname":"Pantaloons", "message":"Turn left and go straight"},
+								   	{"sname":"Croma", "message":"Walk towards Pantaloons then head right"},
+								  		  ]
+				},
+				{"sname":"Pantaloons", "goto": [
+									{"sname":"Walmart", "message":"Walk towards Trends then head left"},
+								   	{"sname":"Starbucks", "message":"Head straight towards Croma. Then walk towards your right, Starbucks will come on the oppoite side, to your right"},
+								   	{"sname":"Croma", "message":"Go straight to the opposite side of the building"},
+								   	{"sname":"Trends", "message":"Turn right and head straight"},
+								  		  ]
+				},
+				{"sname":"Starbucks", "goto": [
+									{"sname":"Walmart", "message":"Its on the opposite side, slightly to your right"},
+								   	{"sname":"Croma", "message":"Its on the opposite side, slightly to your left"},
+								   	{"sname":"Pantaloons", "message":"Walk towards Croma and then turn left. Go straight"},
+								   	{"sname":"Trends", "message":"Walk towards Walmart and then turn right. Go straight"},
+								  		  ]
+				},				
+]}
